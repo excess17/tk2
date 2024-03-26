@@ -1,0 +1,34 @@
+{
+  "error": {
+    "dataLoading": "Errore durante la connessione al server"
+  },
+  "common": {
+    "save": "Salva",
+    "dataSaved": "Nodi salvato/a con successo",
+    "dataDeleted": "Nodi eliminato/a con successo",
+    "notAuthenticated": "L'utente non è autenticato.",
+    "selectFile": "Carica nuovo file",
+    "selectImageFile": "Carica nuova immagine",
+    "download": "Scarica",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "yes": "Si",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} è obbligatorio"
+  },
+  "entities": {
+    "nodi": {
+      "deleteDialog": {
+        "title": "Elimina nodi",
+        "description": "Sei sicuro/a?"
+      },
+      "notFound": "Nodi non trovato/a",
+      "deleted": "Nodi eliminato/a",
+      "id": "ID",
+      "id": "entità.nodi.id",
+      "field1": "entità.nodi.field1"
+    }
+  }
+}

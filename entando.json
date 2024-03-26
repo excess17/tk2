@@ -1,0 +1,89 @@
+{
+    "microservices": [
+        {
+            "name": "nodi",
+            "stack": "spring-boot",
+            "healthCheckPath": "/management/health",
+            "dbms": "postgresql",
+            "commands": {
+                "pack": "mvn clean package -DskipTests -Pprod"
+            }
+        }
+    ],
+    "microfrontends": [
+        {
+            "name": "nodi-table",
+            "customElement": "nodi-table",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "nodi-table",
+                "it": "nodi-table"
+            },
+            "apiClaims": [
+                {
+                    "name": "nodi-api",
+                    "type": "internal",
+                    "serviceName": "nodi"
+                }
+            ],
+            "commands": {
+                "run": "npm install && PORT=3000 npm start"
+            }
+        },
+        {
+            "name": "nodi-details",
+            "customElement": "nodi-details",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "nodi-details",
+                "it": "nodi-details"
+            },
+            "apiClaims": [
+                {
+                    "name": "nodi-api",
+                    "type": "internal",
+                    "serviceName": "nodi"
+                }
+            ],
+            "commands": {
+                "run": "npm install && PORT=3001 npm start"
+            }
+        },
+        {
+            "name": "nodi-form",
+            "customElement": "nodi-form",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "nodi-form",
+                "it": "nodi-form"
+            },
+            "apiClaims": [
+                {
+                    "name": "nodi-api",
+                    "type": "internal",
+                    "serviceName": "nodi"
+                }
+            ],
+            "commands": {
+                "run": "npm install && PORT=3002 npm start"
+            }
+        }
+    ],
+    "svc": [
+        "keycloak",
+        "postgresql"
+    ],
+    "name": "tk2",
+    "version": "0.0.1",
+    "description": "tk2 description",
+    "type": "bundle"
+}

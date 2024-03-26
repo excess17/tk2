@@ -1,0 +1,9 @@
+{
+    "systemParams": {
+        "api": {
+            "nodi-api": {
+                "url": "http://localhost:8081"
+            }
+        }
+    }
+}

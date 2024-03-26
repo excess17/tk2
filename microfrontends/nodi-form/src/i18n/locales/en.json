@@ -1,0 +1,34 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "save": "Save",
+    "dataSaved": "Nodi successfully saved",
+    "dataDeleted": "Nodi successfully deleted",
+    "notAuthenticated": "User is not authenticated.",
+    "selectFile": "Upload new file",
+    "selectImageFile": "Upload new image",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} is required"
+  },
+  "entities": {
+    "nodi": {
+      "deleteDialog": {
+        "title": "Delete nodi",
+        "description": "Are you sure?"
+      },
+      "notFound": "Nodi not found",
+      "deleted": "Nodi deleted",
+      "id": "ID",
+      "id": "entities.nodi.id",
+      "field1": "entities.nodi.field1"
+    }
+  }
+}

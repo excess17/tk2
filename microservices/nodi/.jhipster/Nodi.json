@@ -1,0 +1,17 @@
+{
+  "changelogDate": "20240326105540",
+  "clientRootFolder": "nodi",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "field1",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "nodi",
+  "name": "Nodi",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
