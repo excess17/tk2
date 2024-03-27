@@ -26,7 +26,6 @@
       },
       "notFound": "Nodi not found",
       "deleted": "Nodi deleted",
-      "id": "ID",
       "id": "entities.nodi.id",
       "field1": "entities.nodi.field1"
     }

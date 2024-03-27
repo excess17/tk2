@@ -1,0 +1,10 @@
+name: tk2
+description: tk2 description
+components:
+  widgets:
+    - widgets/nodi-table.yaml
+    - widgets/nodi-details.yaml
+    - widgets/nodi-form.yaml
+  plugins:
+    - plugins/nodi.yaml
+descriptorVersion: v6

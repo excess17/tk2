@@ -1,0 +1,13 @@
+name: nodi-table
+type: widget
+titles:
+  en: nodi-table
+  it: nodi-table
+group: free
+descriptorVersion: v5
+customElement: nodi-table
+apiClaims:
+  - type: internal
+    name: nodi-api
+    pluginName: nodi
+params: []

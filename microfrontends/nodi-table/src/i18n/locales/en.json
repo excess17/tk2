@@ -8,7 +8,8 @@
     "download": "Download file",
     "dataDeleted": "Nodi successfully deleted",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "delete": ""
   },
   "pagination": {
     "ariaLabels": {
@@ -40,7 +41,6 @@
         "description": "Are you sure?"
       },
       "noItems": "No nodis available",
-      "id": "ID",
       "id": "entities.nodi.id",
       "field1": "entities.nodi.field1"
     }

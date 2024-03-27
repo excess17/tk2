@@ -1,0 +1,5 @@
+name: nodi
+descriptorVersion: v6
+dbms: postgresql
+image: excess17/nodi:0.0.1-SNAPSHOT
+healthCheckPath: /management/health

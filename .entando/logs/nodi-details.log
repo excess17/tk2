@@ -1,0 +1,62 @@
+
+> nodi-details-widget@0.1.0 postinstall /home/sim/Desktop/ALL/RELEASE-7.3.0-TESTING/tk2/new-area/tk2/microfrontends/nodi-details
+> npm run i18n
+
+
+> nodi-details-widget@0.1.0 i18n /home/sim/Desktop/ALL/RELEASE-7.3.0-TESTING/tk2/new-area/tk2/microfrontends/nodi-details
+> node ./node_modules/i18next-scanner/bin/cli.js --config ./scripts/i18next-scanner.config.js
+
+npm WARN @typescript-eslint/eslint-plugin@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @typescript-eslint/parser@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN acorn-bigint@0.4.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN acorn-export-ns-from@0.1.0 requires a peer of acorn@^6.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN acorn-stage3@2.1.0 requires a peer of acorn@^6.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-react-app@5.0.2 requires a peer of @typescript-eslint/eslint-plugin@2.x but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-react-app@5.0.2 requires a peer of @typescript-eslint/parser@2.x but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.17.1 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules/watchpack/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+audited 2053 packages in 11.146s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+found 612 vulnerabilities (35 low, 210 moderate, 275 high, 92 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> nodi-details-widget@0.1.0 build /home/sim/Desktop/ALL/RELEASE-7.3.0-TESTING/tk2/new-area/tk2/microfrontends/nodi-details
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  86 KB    build/static/js/2.de1e5868.chunk.js
+  3.91 KB  build/static/js/main.f4d0a1a6.chunk.js
+  786 B    build/static/js/runtime~main.87dba7d5.js
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+

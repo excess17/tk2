@@ -11,7 +11,6 @@
   },
   "entities": {
     "nodi": {
-      "id": "ID",
       "id": "entities.nodi.id",
       "field1": "entities.nodi.field1"
     }
