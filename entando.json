@@ -83,7 +83,7 @@
         "postgresql"
     ],
     "name": "tk2",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "tk2 description",
     "type": "bundle"
 }
